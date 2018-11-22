@@ -1,4 +1,4 @@
-# Game-simulator-of-world-with-superheroes-and-villains
+# Game simulator of world with superheroes and villains
 Java, Java Swing, NetBeans
 
 My task was to create a world simulator where three types of characters appear: civilians, villains and superheroes. Civilians are characters who live in cities and randomly travel around the world. Villains kill civilians and destroy cities. This way they become stronger. Superheroes fight with villains. Civilians and superheroes are created manually, while villains appear randomly. Objects on the map are interactive, i.e. you can view their status and in some cases modify it by clicking on them. Game ends when villains destroy all the cities.
