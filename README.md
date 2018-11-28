@@ -1,7 +1,17 @@
 # Game simulator of world with superheroes and villains
 Java, Java Swing, NetBeans
 
-My task was to create a world simulator where three types of characters appear: civilians, villains and superheroes. Civilians are characters who live in cities and randomly travel around the world. Villains kill civilians and destroy cities. This way they become stronger. Superheroes fight with villains. Civilians and superheroes are created manually, while villains appear randomly. Objects on the map are interactive, i.e. you can view their status and in some cases modify it by clicking on them. Game ends when villains destroy all the cities.
+The project was to create a retro-style game - a simulator of the world of civilians, superheroes and villains. In the world there are cities, including the largest - the capital. In them there are power sources. 
+
+Citizens live in cities. From time to time civilian travels to another randomly selected agglomeration. After visiting it, he returns to his hometown. If the hometown is destroyed, he chooses a new one. 
+
+From time to time, criminals attack the cities. After the appearance in the world, the villain chooses the nearest agglomeration and attacks it. He kills every civilian he meets. When the villain reaches the city, he absorbs the potential gathered in the power sources and kills the civilians in it. Absorbing the potential, the villain increases his abilities, proportionally to the amount of absorbed power sources. When the number of inhabitants and potentials of all sources falls to zero, the villain attacks another random city. 
+
+The capital can send superheroes to help. When the superhero meets a villain, there is a fight. Fighting consists in dealing blows based on abilities. When the health drops to zero, the villain/superhero dies. 
+
+From time to time, the potential of each power source increases proportionally to the city's population of civilians. Power sources from cities help superheroes in fighting. The game is over when the villains destroy the capital, which is attacked at the end. 
+
+Civilians and superheroes are created by hand through a panel in the game window. The board is interactive, i.e. you can click on it and check the properties of the objects. In some cases, you can also change them.
 
 
 # Gra symulator świata superbohaterów i złoczyńców 
@@ -18,3 +28,4 @@ Stolica może wysłać na pomoc superbohaterów. Gdy superbohater spotka złoczy
 Co pewien czas potencjał każdego źródła mocy zwiększa się proporcjonalnie do liczby mieszkańców miasta. Źródła mocy z miast pomagają w walce superbohaterom. Gra się kończy gdy złoczyńcy zniszczą stolicę, która jest napadana na końcu.
 
 Cywile i superbohaterowie są tworzeni ręcznie poprzez panel w oknie gry. Plansza jest interaktywna tzn. można na nią klikać i sprawdzać właściwości obiektów. W niektórych przypadkach można je również zmieniać.
+
